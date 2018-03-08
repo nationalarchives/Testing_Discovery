@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.BasicSearchOnTest" >
+    <classes>
+    
+      <class name="discovery.BasicSearchOnTest.BS_FilterResult_VerifyCollectionAndSubjects"/>
+      <class name="discovery.BasicSearchOnTest.BS_GreaterThan10000_ExportFirst1000ASHTML"/>
+      <class name="discovery.BasicSearchOnTest.BS_GreaterThan10000_ExportFirst1000RecordCreatorAsHTML"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Reference"/>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV"/>
+      <class name="discovery.BasicSearchOnTest.BS_NoOfRecordsPerPage15And30And60"/>
+      <class name="discovery.BasicSearchOnTest.BS_RecordCreator_filterresult"/>
+      <class name="discovery.BasicSearchOnTest.BS_VerifyTotalNoOfRRecordsAndRecordCreators"/>
+      <class name="discovery.BasicSearchOnTest.BS_VerifyTotalNoOfRecordsEachLink"/>
+      <class name="discovery.BasicSearchOnTest.BS_VerifyTotalNoOfRecordsEachGreaterThan"/>
+      <class name="discovery.BasicSearchOnTest.CreateAndDeleteAccount"/>
+      </classes>
+ </test>
+</suite>

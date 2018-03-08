@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery" >
+    <classes>
+      <class name="discovery.Ecommerce.Dsa1939registerClickNo"/>
+      <class name="discovery.Ecommerce.Dsa1939registerClickYes"/>
+      <class name="discovery.Ecommerce.Foi1939register"/>
+      <class name="discovery.Ecommerce.HomeGuard"/>
+      <class name="discovery.Ecommerce.WO416"/>
+      </classes>
+ </test>
+</suite>

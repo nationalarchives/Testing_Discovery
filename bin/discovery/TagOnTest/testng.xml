@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.TagOnTest" >
+    <classes>
+    <class name="discovery.TagOnTest.DeleteTag"/>
+    <class name="discovery.TagOnTest.AddTag"/>
+    <class name="discovery.TagOnTest.DuplicateAddTag"/>
+    </classes>
+ </test>
+</suite>

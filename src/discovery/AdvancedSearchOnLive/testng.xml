@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.AdvancedSearchOnLive" >
+    <classes>
+    
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_close_SpecificDate"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_Open_SpecificDate"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_PartiallyOpen_AnyTime"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_Retained_AnyTime"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_RecordCreator_CreatorType_CheckBox_Years"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_RecordCreator_CreatorType_DateRange"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_DateRange_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SpecificDate_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Reference_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Search_Find_DontFindWord"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_SearchOtherArchives"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheNA_CatalogueLevel" />
+    
+              
+      </classes>
+ </test>
+</suite>

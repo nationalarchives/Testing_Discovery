@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="DeliveryOptionOnDev">
+    <classes>
+      <class name="dicovery.DeliveryOptionOnDev.AcademicSubscription"/>
+      <class name="dicovery.DeliveryOptionOnDev.AccessUnderReview"/>
+      <class name="dicovery.DeliveryOptionOnDev.AV_Media"/>
+      <class name="dicovery.DeliveryOptionOnDev.ClosedFOIReview"/>
+      <class name="dicovery.DeliveryOptionOnDev.ClosedRetainedDeptKnown"/>
+      <class name="dicovery.DeliveryOptionOnDev.ClosedRetainedDeptUnKnown"/>
+      <class name="dicovery.DeliveryOptionOnDev.Collectioncare"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedAvailableButNotDownloadableAtItemLevel"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedAvailableButNotDownloadableAtPieceLevel"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedDiscovery"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedDiscoveryForSurrogate"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedLia"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedOther"/>
+      <class name="dicovery.DeliveryOptionOnDev.DigitizedPartiallyOpened"/>
+      <class name="dicovery.DeliveryOptionOnDev.DisplayAtMuseum"/>
+      <class name="dicovery.DeliveryOptionOnDev.FileAuthority"/>
+      <class name="dicovery.DeliveryOptionOnDev.GovtWebArchive"/>
+      <class name="dicovery.DeliveryOptionOnDev.InUse"/>
+      <class name="dicovery.DeliveryOptionOnDev.InvigilationSafeRoom"/>
+      <class name="dicovery.DeliveryOptionOnDev.LocalArchive"/>
+      <class name="dicovery.DeliveryOptionOnDev.MissingLost"/>
+      <class name="dicovery.DeliveryOptionOnDev.MouldTreatment"/>
+      <class name="dicovery.DeliveryOptionOnDev.Offsite"/>
+      <class name="dicovery.DeliveryOptionOnDev.Onloan"/>
+      <class name="dicovery.DeliveryOptionOnDev.OrderOriginal"/>
+      <class name="dicovery.DeliveryOptionOnDev.PaidSearch"/>
+      <class name="dicovery.DeliveryOptionOnDev.Surrogate"/>
+      <class name="dicovery.DeliveryOptionOnDev.TooLargeToCopyOriginal"/>
+      <class name="dicovery.DeliveryOptionOnDev.TooLargeToCopySurrogate"/>
+      <class name="dicovery.DeliveryOptionOnDev.UnAvailable"/>
+      <class name="dicovery.DeliveryOptionOnDev.Unfit"/>
+            </classes>
+             </test>
+      
+</suite>

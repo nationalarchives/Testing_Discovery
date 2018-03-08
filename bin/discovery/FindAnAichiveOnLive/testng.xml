@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.FindAnAichiveOnLive" >
+    <classes>
+    
+       <class name="discovery.FindAnAichiveOnLive.FA_BrowseByCountryName"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_ChooseRegion"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_HomeNation"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_UsingMap"/>
+       <class name="discovery.FindAnAichiveOnLive.FA_Export1000RecordsAsXML"/>
+        <class name="discovery.FindAnAichiveOnLive.FA_ExportAllRecordsAsCSV"/>
+         <class name="discovery.FindAnAichiveOnLive.FA_ExportFirst1000RecordCreatorAsHTML"/>
+        
+              
+      </classes>
+ </test>
+</suite>

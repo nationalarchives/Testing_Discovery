@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.SingleSignOnTest" >
+    <classes>
+      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithEmptyFields"/>
+      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithInvalidEmail"/>
+      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithInvalidPassword"/>
+      <class name="discovery.SingleSignOnTest.SS_CreateAccount_ChangeEmail_ChangePassword_DeleteAccount"/>
+      <class name="discovery.SingleSignOnTest.SS_ForgttenPassword"/>
+      <class name="discovery.SingleSignOnTest.SS_NoAcceptTerm"/>
+      </classes>
+ </test>
+</suite>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Discovery]">
+  <test name="Subscription(failed)">
+    <classes>
+      <class name="discovery.Subscription.SubscriptionMoDMedalResearchOffice">
+        <methods>
+          <include name="SubscriptionMoDMedalResearchOffice"/>
+        </methods>
+      </class> <!-- discovery.Subscription.SubscriptionMoDMedalResearchOffice -->
+    </classes>
+  </test> <!-- Subscription(failed) -->
+  <test name="AdvancedSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years">
+        <methods>
+          <include name="CreatorType_CheckBox_Years"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel">
+        <methods>
+          <include name="SearchTheNA_CatalogueLevel"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Reference_SearchAll">
+        <methods>
+          <include name="Reference_SearchAll"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Reference_SearchAll -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_DateRange_SearchAll">
+        <methods>
+          <include name="DateRange_SearchAll"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_DateRange_SearchAll -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft">
+        <methods>
+          <include name="SearchTheNA_Taxonomy_Witchcraft"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Search_Find_DontFindWord">
+        <methods>
+          <include name="Find_DontFindWord"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Search_Find_DontFindWord -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll">
+        <methods>
+          <include name="SpecificDate_SearchAll"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll -->
+      <class name="discovery.AdvancedSearchOnTest.AS_SearchOtherArchives">
+        <methods>
+          <include name="SearchOtherArchives"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_SearchOtherArchives -->
+      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives">
+        <methods>
+          <include name="verifyLookUp"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives -->
+      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange">
+        <methods>
+          <include name="CreatorType_DateRange"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime">
+        <methods>
+          <include name="PartiallyOpen_AnyTime"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime">
+        <methods>
+          <include name="Retained_AnyTime"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent">
+        <methods>
+          <include name="SearchTheTNA_Reference_IncludeContent"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate">
+        <methods>
+          <include name="Open_SpecificDate"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate">
+        <methods>
+          <include name="close_SpecificDate"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate -->
+      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment">
+        <methods>
+          <include name="verifyLookUp"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment -->
+    </classes>
+  </test> <!-- AdvancedSearchOnTest(failed) -->
+  <test name="BasicSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns">
+        <methods>
+          <include name="SortedBy_Alldropdowns"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns -->
+    </classes>
+  </test> <!-- BasicSearchOnTest(failed) -->
+  <test name="ManorSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch">
+        <methods>
+          <include name="ForManorDocuments_KeyWordSearch"/>
+        </methods>
+      </class> <!-- discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch -->
+    </classes>
+  </test> <!-- ManorSearchOnTest(failed) -->
+  <test name="DownlaodRecordOnTest(failed)">
+    <classes>
+      <class name="discovery.DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite">
+        <methods>
+          <include name="verify_Download_ForOffsite"/>
+        </methods>
+      </class> <!-- discovery.DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite -->
+    </classes>
+  </test> <!-- DownlaodRecordOnTest(failed) -->
+</suite> <!-- Failed suite [Discovery] -->

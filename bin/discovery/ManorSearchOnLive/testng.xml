@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.ManorSearchOnLive" >
+    <classes>
+    
+      <class name="discovery.ManorSearchOnLive.MS_ByMonor_VerifyRecordsCreator"/>
+      <class name="discovery.ManorSearchOnLive.MS_ForMonorDocuments_KeyWordSearch"/>
+      <class name="discovery.ManorSearchOnLive.MS_ForMonorDocuments_VerifyRecords"/>
+      </classes>
+ </test>
+</suite>

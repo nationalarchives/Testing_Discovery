@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" parallel ="tests">
+  <test name="firefox">
+  
+   <parameter name ="Browser" value ="firefox"/>
+    <classes>
+    <class name="discovery.CrossbrowserTesting.accessUnderReview"/>
+       
+              
+      </classes>
+ </test>
+ 
+ <test name="chrome">
+  
+   <parameter name ="Browser" value ="chrome"/>
+    <classes>
+    <class name="discovery.CrossbrowserTesting.accessUnderReview"/>
+       
+              
+      </classes>
+ </test>
+ 
+ <test name="ie">
+  
+   <parameter name ="Browser" value ="ie"/>
+    <classes>
+    <class name="discovery.CrossbrowserTesting.accessUnderReview"/>
+       
+              
+      </classes>
+ </test>
+</suite>

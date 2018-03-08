@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery" >
+    <classes>
+    
+      <class name="discovery.BrowseOnTest.Browse_Archives"/>
+      <class name="discovery.BrowseOnTest.Record_Creators"/>
+      <class name="discovery.BrowseOnTest.Records_Of_OtherArchives"/>
+      <class name="discovery.BrowseOnTest.Records_Of_TNA"/>
+      </classes>
+ </test>
+</suite>

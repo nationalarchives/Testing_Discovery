@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="BrowserStack" >
+    <classes>
+    
+      <class name="browserStack.BrowserStackDataProvider"/>
+      <class name="browserStack.BrowserStackSafariDataProvider"/>
+     
+      </classes>
+ </test>
+</suite>

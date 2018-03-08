@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3322" started-at="2018-03-08T13:35:20Z" finished-at="2018-03-08T13:35:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3322" started-at="2018-03-08T13:35:20Z" finished-at="2018-03-08T13:35:24Z">
+      <class name="repository_API.Discovery_API_Repository_Collection">
+        <test-method status="PASS" signature="verifyRecords_Details()[pri:0, instance:repository_API.Discovery_API_Repository_Collection@8a9f61]" name="verifyRecords_Details" duration-ms="79" started-at="2018-03-08T13:35:24Z" finished-at="2018-03-08T13:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecords_Details -->
+      </class> <!-- repository_API.Discovery_API_Repository_Collection -->
+      <class name="repository_API.Discovery_API_Repository_details_Id">
+        <test-method status="PASS" signature="verifyRecords_Details()[pri:0, instance:repository_API.Discovery_API_Repository_details_Id@1c7cbad]" name="verifyRecords_Details" duration-ms="3174" started-at="2018-03-08T13:35:21Z" finished-at="2018-03-08T13:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecords_Details -->
+      </class> <!-- repository_API.Discovery_API_Repository_details_Id -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

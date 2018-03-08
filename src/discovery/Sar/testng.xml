@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+    <test name="Sar">
+    <classes>
+      <class name="discovery.Sar.Sar_AB7190VisitTheDepartmentWebsite"/>
+      <class name="discovery.Sar.Sar_CAB1343025Retention"/>
+      <class name="discovery.Sar.Sar_DPP23289FoiRequest"/>
+      <class name="discovery.Sar.Sar_HO4051079FoiRequest"/>
+      <class name="discovery.Sar.Sar_HO45237211FoiRequest"/>
+      <class name="discovery.Sar.Sar_J24312FoiRequest"/>
+      <class name="discovery.Sar.Sar_LEV2226ZFoiRequest"/>
+      <class name="discovery.Sar.Sar_RW33FQZFoiRequest"/>
+      
+      </classes>
+       </test>
+      
+
+</suite>
