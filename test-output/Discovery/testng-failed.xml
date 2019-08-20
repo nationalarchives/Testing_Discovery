@@ -1,124 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Discovery]">
-  <test name="Subscription(failed)">
+  <test thread-count="5" name="DeliveryOption(failed)">
     <classes>
-      <class name="discovery.Subscription.SubscriptionMoDMedalResearchOffice">
+      <class name="DeliveryOption.InvigilationSafeRoom">
+        <methods>
+          <include name="invigilationSafeRoom"/>
+        </methods>
+      </class> <!-- DeliveryOption.InvigilationSafeRoom -->
+      <class name="DeliveryOption.DigitizedPartiallyOpened">
+        <methods>
+          <include name="digitizedPartiallyOpened"/>
+        </methods>
+      </class> <!-- DeliveryOption.DigitizedPartiallyOpened -->
+    </classes>
+  </test> <!-- DeliveryOption(failed) -->
+  <test thread-count="5" name="Subscription(failed)">
+    <classes>
+      <class name="Subscription.SubscriptionMoDMedalResearchOffice">
         <methods>
           <include name="SubscriptionMoDMedalResearchOffice"/>
         </methods>
-      </class> <!-- discovery.Subscription.SubscriptionMoDMedalResearchOffice -->
+      </class> <!-- Subscription.SubscriptionMoDMedalResearchOffice -->
     </classes>
   </test> <!-- Subscription(failed) -->
-  <test name="AdvancedSearchOnTest(failed)">
+  <test thread-count="5" name="AdvancedSearchOnTest(failed)">
     <classes>
-      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years">
-        <methods>
-          <include name="CreatorType_CheckBox_Years"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel">
-        <methods>
-          <include name="SearchTheNA_CatalogueLevel"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Reference_SearchAll">
-        <methods>
-          <include name="Reference_SearchAll"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Reference_SearchAll -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_DateRange_SearchAll">
-        <methods>
-          <include name="DateRange_SearchAll"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_DateRange_SearchAll -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft">
-        <methods>
-          <include name="SearchTheNA_Taxonomy_Witchcraft"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Search_Find_DontFindWord">
-        <methods>
-          <include name="Find_DontFindWord"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Search_Find_DontFindWord -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll">
-        <methods>
-          <include name="SpecificDate_SearchAll"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll -->
-      <class name="discovery.AdvancedSearchOnTest.AS_SearchOtherArchives">
-        <methods>
-          <include name="SearchOtherArchives"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_SearchOtherArchives -->
-      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives">
-        <methods>
-          <include name="verifyLookUp"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives -->
-      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange">
-        <methods>
-          <include name="CreatorType_DateRange"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange -->
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime">
+      <class name="AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime">
         <methods>
           <include name="PartiallyOpen_AnyTime"/>
         </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime -->
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime">
-        <methods>
-          <include name="Retained_AnyTime"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime -->
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent">
-        <methods>
-          <include name="SearchTheTNA_Reference_IncludeContent"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent -->
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate">
-        <methods>
-          <include name="Open_SpecificDate"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate -->
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate">
-        <methods>
-          <include name="close_SpecificDate"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate -->
-      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment">
-        <methods>
-          <include name="verifyLookUp"/>
-        </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment -->
+      </class> <!-- AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime -->
     </classes>
   </test> <!-- AdvancedSearchOnTest(failed) -->
-  <test name="BasicSearchOnTest(failed)">
+  <test thread-count="5" name="DetailPageOnTest(failed)">
     <classes>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns">
+      <class name="DetailPageOnTest.DetailPage_CouldThisPageBeImproved_NO">
         <methods>
-          <include name="SortedBy_Alldropdowns"/>
+          <include name="DetailPage_CouldThisPageBeImproved_NO"/>
         </methods>
-      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns -->
+      </class> <!-- DetailPageOnTest.DetailPage_CouldThisPageBeImproved_NO -->
+      <class name="DetailPageOnTest.DetailPage_CouldThisPageBeImproved_Yes">
+        <methods>
+          <include name="DetailPage_CouldThisPageBeImproved_Yes"/>
+        </methods>
+      </class> <!-- DetailPageOnTest.DetailPage_CouldThisPageBeImproved_Yes -->
     </classes>
-  </test> <!-- BasicSearchOnTest(failed) -->
-  <test name="ManorSearchOnTest(failed)">
+  </test> <!-- DetailPageOnTest(failed) -->
+  <test thread-count="5" name="TagOnTest(failed)">
     <classes>
-      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch">
+      <class name="TagOnTest.MaxTagLength">
         <methods>
-          <include name="ForManorDocuments_KeyWordSearch"/>
+          <include name="MaxTagLength"/>
         </methods>
-      </class> <!-- discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch -->
+      </class> <!-- TagOnTest.MaxTagLengthTest -->
     </classes>
-  </test> <!-- ManorSearchOnTest(failed) -->
-  <test name="DownlaodRecordOnTest(failed)">
+  </test> <!-- TagOnTest(failed) -->
+  <test thread-count="5" name="Discovery Fileauthorities_API(failed)">
     <classes>
-      <class name="discovery.DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite">
+      <class name="fileauthorities_API.Discovery_API_Flieauthorities">
         <methods>
-          <include name="verify_Download_ForOffsite"/>
+          <include name="verifyFileAuthority"/>
         </methods>
-      </class> <!-- discovery.DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite -->
+      </class> <!-- fileauthorities_API.Discovery_API_Flieauthorities -->
+      <class name="fileauthorities_API.Discovery_API_Collections">
+        <methods>
+          <include name="verifyFileAuthority"/>
+        </methods>
+      </class> <!-- fileauthorities_API.Discovery_API_Collections -->
     </classes>
-  </test> <!-- DownlaodRecordOnTest(failed) -->
+  </test> <!-- Discovery Fileauthorities_API(failed) -->
+  <test thread-count="5" name="Discovery Records_API(failed)">
+    <classes>
+      <class name="records_API.Discovery_API_Records_Details">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- records_API.Discovery_API_Records_Details -->
+      <class name="records_API.Discovery_API_Records_Children_parentID">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- records_API.Discovery_API_Records_Children_parentID -->
+      <class name="records_API.Discovery_API_Records_Context_Id">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- records_API.Discovery_API_Records_Context_Id -->
+      <class name="records_API.Discovery_API_Records_Collection">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- records_API.Discovery_API_Records_Collection -->
+    </classes>
+  </test> <!-- Discovery Records_API(failed) -->
+  <test thread-count="5" name="repository_API(failed)">
+    <classes>
+      <class name="repository_API.Discovery_API_Repository_details_Id">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- repository_API.Discovery_API_Repository_details_Id -->
+      <class name="repository_API.Discovery_API_Repository_Collection">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- repository_API.Discovery_API_Repository_Collection -->
+    </classes>
+  </test> <!-- repository_API(failed) -->
+  <test thread-count="5" name="searchForFileAuthorities_API(failed)">
+    <classes>
+      <class name="searchForFileAuthorities_API.Discovery_API_SearchForFileAuthorities">
+        <methods>
+          <include name="verifyRecords_Details"/>
+        </methods>
+      </class> <!-- searchForFileAuthorities_API.Discovery_API_SearchForFileAuthorities -->
+    </classes>
+  </test> <!-- searchForFileAuthorities_API(failed) -->
+  <test thread-count="5" name="searchForRepositories_API(failed)">
+    <classes>
+      <class name="searchForRepositories_API.Discovery_API_SearchForRepositories_Archives">
+        <methods>
+          <include name="verifySearchforRepositories"/>
+        </methods>
+      </class> <!-- searchForRepositories_API.Discovery_API_SearchForRepositories_Archives -->
+    </classes>
+  </test> <!-- searchForRepositories_API(failed) -->
+  <test thread-count="5" name="searchReords_API(failed)">
+    <classes>
+      <class name="searchReords_API.Discovery_API_SearchRecords_Records">
+        <methods>
+          <include name="verifySearchforRepositories"/>
+        </methods>
+      </class> <!-- searchReords_API.Discovery_API_SearchRecords_Records -->
+    </classes>
+  </test> <!-- searchReords_API(failed) -->
 </suite> <!-- Failed suite [Discovery] -->

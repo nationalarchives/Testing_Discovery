@@ -5,33 +5,32 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import wrapper.Wrapper_methods;
+import wrappers.Wrapper_methods;
 
-public class CabinetPapers_FilterbyAll_EntireDocument extends Wrapper_methods{
-	
+public class CabinetPapers_FilterbyAll_EntireDocument extends Wrapper_methods {
+
 	@Test
-	public void cabinetSearch() throws IOException{
-		
-	
+	public void cabinetSearch() throws IOException {
+
 		launchDriver("http://test.nationalarchives.gov.uk/cabinetpapers/", "chrome");
-		
+
 		// start search
-	
+
 		clickbyXpath("//a[@class='btn']");
-		//enter word
+		// enter word
 		enterTextById("all-words", "*");
-		//select filter by document type and by default filter type is all
-		//clickbyXpath("//input[@id='memoranda']");
-		//select search Within entire document
+		// select filter by document type and by default filter type is all
+		// clickbyXpath("//input[@id='memoranda']");
+		// select search Within entire document
 		clickbyXpath("//input[@id='whole']");
-		//click search
+		// click search
 		clickbyXpath("(//input[@value='Search'])[1]");
-		
+
 		// filters
 		String yourFliters = driver.findElementById("search-refine").getText();
 
 		System.out.println(yourFliters);
-		
+
 		Assert.assertTrue(yourFliters.contains("Include content"));
 		Assert.assertTrue(yourFliters.contains("CAB 23"));
 		Assert.assertTrue(yourFliters.contains("CAB 24"));
@@ -43,25 +42,21 @@ public class CabinetPapers_FilterbyAll_EntireDocument extends Wrapper_methods{
 		Assert.assertTrue(yourFliters.contains("CAB 129"));
 		Assert.assertTrue(yourFliters.contains("CAB 181"));
 		Assert.assertTrue(yourFliters.contains("CAB 195"));
-		
-		String actual = driver.findElementByLinkText("Return to Cabinet Papers website").getText();
-		
-		System.out.println(actual);
-		
-		Assert.assertEquals(actual, "Return to Cabinet Papers website");
-		
-		clickbyLinkText("Return to Cabinet Papers website");
-		
-		String actual_title = driver.getTitle();
-		
-		System.out.println("The title is "+actual_title);
-		
-		quitBrowser();
-		
-		
 
-		
-		
+		String actual = driver.findElementByLinkText("Return to Cabinet Papers website").getText();
+
+		System.out.println(actual);
+
+		Assert.assertEquals(actual, "Return to Cabinet Papers website");
+
+		clickbyLinkText("Return to Cabinet Papers website");
+
+		String actual_title = driver.getTitle();
+
+		System.out.println("The title is " + actual_title);
+
+		quitBrowser();
+
 	}
 
 }

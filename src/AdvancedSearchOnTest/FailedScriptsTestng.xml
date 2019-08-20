@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery.discovery.AdvancedSearchOnTest" >
+    <classes>
+    
+       <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate"/>
+       <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime"/>
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/>
+      <class name="discovery.AdvancedSearchOnTest.AS_SearchOtherArchives"/>
+       <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
+       <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel" />
+        <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment" />
+    
+              
+      </classes>
+ </test>
+</suite>

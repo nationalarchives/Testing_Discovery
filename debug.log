@@ -1,7 +1,10 @@
-[0307/163226.884:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
-[0307/163227.742:ERROR:exception_snapshot_win.cc(88)] thread ID 30188 not found in process
-[0307/163227.743:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
-[0307/163322.137:ERROR:process_reader_win.cc(242)] ReadMemory at 0x1fb0000 of 384 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
-[0307/163322.168:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
-[0307/163323.348:ERROR:process_reader_win.cc(242)] ReadMemory at 0x76ff80 of 512 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
-[0307/163323.434:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[0912/150037.248:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0912/150037.341:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0912/150037.341:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0912/150037.345:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0912/150037.346:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0912/150037.346:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0912/150037.346:ERROR:process_reader_win.cc(123)] NtOpenThread: An invalid Client ID was specified. (0xc000000b)
+[0912/150037.346:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0912/150037.346:ERROR:exception_snapshot_win.cc(88)] thread ID 6436 not found in process
+[0912/150037.346:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

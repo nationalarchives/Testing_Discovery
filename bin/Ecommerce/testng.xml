@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+  <test name="discovery" >
+    <classes>
+     <!--  <class name="Ecommerce.CertifiedNaturalisationRequest"/> -->
+    <!--   <class name="Ecommerce.DigitizedAddToBasket"/> -->
+      <class name="Ecommerce.Dsa1939registerClickNo"/>
+      <class name="Ecommerce.Dsa1939registerClickYes"/>
+      <class name="Ecommerce.Foi1939register"/>
+      <!-- <class name="Ecommerce.PageCheckRequestACopy"/> -->
+      <class name="Ecommerce.HomeGuard"/>
+      <class name="Ecommerce.WO416"/>
+        <!-- <class name="Ecommerce.PageCheckRequestMore1000Characters"/> -->
+        </classes>
+ </test>
+</suite>

@@ -2,146 +2,145 @@
 <suite name="Discovery" verbose="1" >
   <test name="DeliveryOption">
     <classes>
-      <class name="dicovery.DeliveryOption.AcademicSubscription"/>
-      <class name="dicovery.DeliveryOption.AccessUnderReview"/>
-      <class name="dicovery.DeliveryOption.AV_Media"/>
-      <class name="dicovery.DeliveryOption.ClosedFOIReview"/>
-      <class name="dicovery.DeliveryOption.ClosedRetainedDeptKnown"/>
-      <class name="dicovery.DeliveryOption.ClosedRetainedDeptUnKnown"/>
-      <class name="dicovery.DeliveryOption.Collectioncare"/>
-      <class name="dicovery.DeliveryOption.DigitizedAvailableButNotDownloadableAtItemLevel"/>
-      <class name="dicovery.DeliveryOption.DigitizedAvailableButNotDownloadableAtPieceLevel"/>
-      <class name="dicovery.DeliveryOption.DigitizedDiscovery"/>
-      <class name="dicovery.DeliveryOption.DigitizedDiscoveryForSurrogate"/>
-      <class name="dicovery.DeliveryOption.DigitizedLia"/>
-      <class name="dicovery.DeliveryOption.DigitizedOther"/>
-      <class name="dicovery.DeliveryOption.DigitizedPartiallyOpened"/>
-      <class name="dicovery.DeliveryOption.DisplayAtMuseum"/>
-      <class name="dicovery.DeliveryOption.FileAuthority"/>
-      <class name="dicovery.DeliveryOption.GovtWebArchive"/>
-      <class name="dicovery.DeliveryOption.InUse"/>
-      <class name="dicovery.DeliveryOption.InvigilationSafeRoom"/>
-      <class name="dicovery.DeliveryOption.LocalArchive"/>
-      <class name="dicovery.DeliveryOption.MissingLost"/>
-      <class name="dicovery.DeliveryOption.MouldTreatment"/>
-      <class name="dicovery.DeliveryOption.Offsite"/>
-      <class name="dicovery.DeliveryOption.Onloan"/>
-      <class name="dicovery.DeliveryOption.OrderOriginal"/>
-      <class name="dicovery.DeliveryOption.PaidSearch"/>
-      <class name="dicovery.DeliveryOption.Surrogate"/>
-      <class name="dicovery.DeliveryOption.TooLargeToCopyOriginal"/>
-      <class name="dicovery.DeliveryOption.TooLargeToCopySurrogate"/>
-      <class name="dicovery.DeliveryOption.UnAvailable"/>
-      <class name="dicovery.DeliveryOption.Unfit"/>
-       <class name="dicovery.DeliveryOption.WO416"/>
+      <class name="DeliveryOption.AcademicSubscription"/>
+      <class name="DeliveryOption.AccessUnderReview"/>
+      <class name="DeliveryOption.AV_Media"/>
+      <class name="DeliveryOption.ClosedFOIReview"/>
+      <class name="DeliveryOption.ClosedRetainedDeptKnown"/>
+      <class name="DeliveryOption.ClosedRetainedDeptUnKnown"/>
+      <class name="DeliveryOption.Collectioncare"/>
+      <class name="DeliveryOption.DigitizedAvailableButNotDownloadableAtItemLevel"/>
+      <class name="DeliveryOption.DigitizedAvailableButNotDownloadableAtPieceLevel"/>
+      <class name="DeliveryOption.DigitizedDiscovery"/>
+      <class name="DeliveryOption.DigitizedDiscoveryForSurrogate"/>
+      <class name="DeliveryOption.DigitizedLia"/>
+      <class name="DeliveryOption.DigitizedOther"/>
+      <class name="DeliveryOption.DigitizedPartiallyOpened"/>
+      <class name="DeliveryOption.DisplayAtMuseum"/>
+      <class name="DeliveryOption.FileAuthority"/>
+      <class name="DeliveryOption.GovtWebArchive"/>
+      <class name="DeliveryOption.InUse"/>
+      <class name="DeliveryOption.InvigilationSafeRoom"/>
+      <class name="DeliveryOption.LocalArchive"/>
+      <class name="DeliveryOption.MissingLost"/>
+      <class name="DeliveryOption.MouldTreatment"/>
+      <class name="DeliveryOption.Offsite"/>
+      <class name="DeliveryOption.Onloan"/>
+      <class name="DeliveryOption.OrderOriginal"/>
+      <class name="DeliveryOption.PaidSearch"/>
+      <class name="DeliveryOption.Surrogate"/>
+      <class name="DeliveryOption.TooLargeToCopyOriginal"/>
+      <class name="DeliveryOption.TooLargeToCopySurrogate"/>
+      <class name="DeliveryOption.UnAvailable"/>
+      <class name="DeliveryOption.Unfit"/>
             </classes>
              </test>
        <test name="Sar">
     <classes>
-      <class name="discovery.Sar.Sar_AB7190VisitTheDepartmentWebsite"/>
-      <class name="discovery.Sar.Sar_CAB1343025Retention"/>
-      <class name="discovery.Sar.Sar_DPP23289FoiRequest"/>
-      <class name="discovery.Sar.Sar_HO4051079FoiRequest"/>
-      <class name="discovery.Sar.Sar_HO45237211FoiRequest"/>
-      <class name="discovery.Sar.Sar_J24312FoiRequest"/>
-      <class name="discovery.Sar.Sar_LEV2226ZFoiRequest"/>
-      <class name="discovery.Sar.Sar_RW33FQZFoiRequest"/>
+      <class name="Sar.Sar_AB7190VisitTheDepartmentWebsite"/>
+      <class name="Sar.Sar_CAB1343025Retention"/>
+      <class name="Sar.Sar_DPP23289FoiRequest"/>
+      <class name="Sar.Sar_HO4051079FoiRequest"/>
+      <class name="Sar.Sar_HO45237211FoiRequest"/>
+      <class name="Sar.Sar_J24312FoiRequest"/>
+      <class name="Sar.Sar_LEV2226ZFoiRequest"/>
+      <class name="Sar.Sar_RW33FQZFoiRequest"/>
       
       </classes>
        </test>
       
        <test name="Ecommerce">
     <classes>
-      <class name="discovery.Ecommerce.CertifiedNaturalisationRequest"/>
-      <class name="discovery.Ecommerce.DigitizedAddToBasket"/>
-      <class name="discovery.Ecommerce.Dsa1939registerClickNo"/>
-      <class name="discovery.Ecommerce.Dsa1939registerClickYes"/>
-      <class name="discovery.Ecommerce.Foi1939register"/>
-      <class name="discovery.Ecommerce.PageCheckRequestACopy"/>
-      <class name="discovery.Ecommerce.HomeGuard"/>
-      <class name="discovery.Ecommerce.WO416"/>
-        <class name="discovery.Ecommerce.PageCheckRequestMore1000Characters"/>
+      <class name="Ecommerce.CertifiedNaturalisationRequest"/>
+      <class name="Ecommerce.DigitizedAddToBasket"/>
+      <class name="Ecommerce.Dsa1939registerClickNo"/>
+      <class name="Ecommerce.Dsa1939registerClickYes"/>
+      <class name="Ecommerce.Foi1939register"/>
+      <class name="Ecommerce.PageCheckRequestACopy"/>
+      <class name="Ecommerce.HomeGuard"/>
+      <class name="Ecommerce.WO416"/>
+        <class name="Ecommerce.PageCheckRequestMore1000Characters"/>
           
       </classes>
        </test>
       
        <test name="Subscription">
     <classes>
-      <class name="discovery.Subscription.SubscriptionMoDMedalResearchOffice"/>
+      <class name="Subscription.SubscriptionMoDMedalResearchOffice"/>
       
       </classes>
        </test>
       
        <test name="AdvancedSearchOnTest">
     <classes>
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_DateRange_SearchAll"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Reference_SearchAll"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Search_Find_DontFindWord"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_SearchOtherArchives"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
-      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel" />
-      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment" />
-      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives" />
+      <class name="AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate"/>
+      <class name="AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate"/>
+      <class name="AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime"/>
+      <class name="AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime"/>
+      <class name="AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years"/>
+      <class name="AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange"/>
+      <class name="AdvancedSearchOnTest.AS_Records_DateRange_SearchAll"/>
+      <!-- <class name="AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/> -->
+      <class name="AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll"/>
+      <class name="AdvancedSearchOnTest.AS_Reference_SearchAll"/>
+      <class name="AdvancedSearchOnTest.AS_Search_Find_DontFindWord"/>
+      <class name="AdvancedSearchOnTest.AS_SearchOtherArchives"/>
+      <class name="AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
+      <class name="AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel" />
+      <class name="AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment" />
+     <!--  <class name="AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives" /> -->
       
       </classes>
        </test>
       
        <test name="BasicSearchOnTest">
     <classes>
-      <class name="discovery.BasicSearchOnTest.BS_FilterResult_VerifyCollectionAndSubjects"/>
-      <class name="discovery.BasicSearchOnTest.BS_GreaterThan10000_ExportFirst1000RecordCreatorAsHTML"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Reference"/>
-      <class name="discovery.BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV"/>
-      <class name="discovery.BasicSearchOnTest.BS_NoOfRecordsPerPage15And30And60"/>
-      <class name="discovery.BasicSearchOnTest.BS_RecordCreator_filterresult"/>
-      <class name="discovery.BasicSearchOnTest.BS_VerifyTotalNoOfRRecordsAndRecordCreators"/>
-      <class name="discovery.BasicSearchOnTest.BS_VerifyTotalNoOfRecordsEachLink"/>
+      <class name="BasicSearchOnTest.BS_FilterResult_VerifyCollectionAndSubjects"/>
+      <class name="BasicSearchOnTest.BS_GreaterThan10000_ExportFirst1000RecordCreatorAsHTML"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000_SortedBy_Reference"/>
+      <class name="BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV"/>
+      <class name="BasicSearchOnTest.BS_NoOfRecordsPerPage15And30And60"/>
+      <class name="BasicSearchOnTest.BS_RecordCreator_filterresult"/>
+      <class name="BasicSearchOnTest.BS_VerifyTotalNoOfRRecordsAndRecordCreators"/>
+      <class name="BasicSearchOnTest.BS_VerifyTotalNoOfRecordsEachLink"/>
       
       </classes>
        </test>
       
        <test name="FindAnAichiveOnTest">
     <classes>
-      <class name="discovery.FindAnAichiveOnTest.FA_BrowseByCountryName"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_ChooseRegion"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_HomeNation"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_UsingMap"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_Export1000RecordsAsXML"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_ExportAllRecordsAsCSV"/>
-      <class name="discovery.FindAnAichiveOnTest.FA_ExportFirst1000RecordCreatorAsHTML"/>
+      <class name="FindAnAichiveOnTest.FA_BrowseByCountryName"/>
+      <class name="FindAnAichiveOnTest.FA_ChooseRegion"/>
+      <class name="FindAnAichiveOnTest.FA_HomeNation"/>
+      <class name="FindAnAichiveOnTest.FA_UsingMap"/>
+      <class name="FindAnAichiveOnTest.FA_Export1000RecordsAsXML"/>
+      <class name="FindAnAichiveOnTest.FA_ExportAllRecordsAsCSV"/>
+      <class name="FindAnAichiveOnTest.FA_ExportFirst1000RecordCreatorAsHTML"/>
       
       </classes>
        </test>
       
        <test name="ManorSearchOnTest">
     <classes>
-      <class name="discovery.ManorSearchOnTest.MS_ByManor_VerifyRecordsCreator"/>
-      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch"/>
-      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_VerifyRecords"/>
+      <class name="ManorSearchOnTest.MS_ByManor_VerifyRecordsCreator"/>
+    <!--   <class name="ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch"/> -->
+      <class name="ManorSearchOnTest.MS_ForManorDocuments_VerifyRecords"/>
       
       </classes>
        </test>
       
        <test name="DetailPageOnTest">
     <classes>
-      <class name="discovery.DetailPageOnTest.Verify_DetailPage_OnAllLevels"/>
-       <class name="discovery.DetailPageOnTest.Verify_DetailPage_OnSeriesLevel"/>
-        <class name="discovery.DetailPageOnTest.DetailPage_ErrorOnRecordDescription"/>
-         <class name="discovery.DetailPageOnTest.DetailPage_CouldThisPageBeImproved_NO"/>
-          <class name="discovery.DetailPageOnTest.DetailPage_CouldThisPageBeImproved_Yes"/>
-          <class name="discovery.DetailPageOnTest.DetailPage_ShowImages"/>
+      <class name="DetailPageOnTest.Verify_DetailPage_OnAllLevels"/>
+       <class name="DetailPageOnTest.Verify_DetailPage_OnSeriesLevel"/>
+        <class name="DetailPageOnTest.DetailPage_ErrorOnRecordDescription"/>
+         <class name="DetailPageOnTest.DetailPage_CouldThisPageBeImproved_NO"/>
+          <class name="DetailPageOnTest.DetailPage_CouldThisPageBeImproved_Yes"/>
+          <class name="DetailPageOnTest.DetailPage_ShowImages_Offsite"/>
           
         
         </classes>
@@ -149,48 +148,50 @@
         
          <test name="BrowseOnTest">
     <classes>
-      <class name="discovery.BrowseOnTest.Browse_Archives"/>
-      <class name="discovery.BrowseOnTest.Record_Creators"/>
-      <class name="discovery.BrowseOnTest.Records_Of_OtherArchives"/>
-      <class name="discovery.BrowseOnTest.Records_Of_TNA"/>
+      <class name="BrowseOnTest.Browse_Archives"/>
+      <class name="BrowseOnTest.Record_Creators"/>
+      <class name="BrowseOnTest.Records_Of_OtherArchives"/>
+      <class name="BrowseOnTest.Records_Of_TNA"/>
       
       </classes>
        </test>
        <test name="TagOnTest">
     <classes>
-    <class name="discovery.TagOnTest.DeleteTag"/>
-    <class name="discovery.TagOnTest.AddTag"/>
-     <class name="discovery.TagOnTest.DuplicateAddTag"/>
-    <class name="discovery.TagOnTest.SelfTagRemovalRequestNoSignIn"/>
-     <class name="discovery.TagOnTest.StopListTag"/>
+    <class name="TagOnTest.DeleteTag"/>
+    <class name="TagOnTest.AddTag"/>
+     <class name="TagOnTest.DuplicateAddTag"/>
+    <class name="TagOnTest.SelfTagRemovalRequestNoSignIn"/>
+     <class name="TagOnTest.StopListTag"/>
+      <class name="TagOnTest.MaxTagLength"/>
+       <class name="TagOnTest.tagforTwoCharactor"/>
             
       </classes>
        </test>
       
        <test name="BookmarkOnTest">
     <classes>
-      <class name="discovery.BookmarkOnTest.Bookmark_add_Rename_Delete"/>
+      <class name="BookmarkOnTest.Bookmark_add_Rename_Delete"/>
       
       </classes>
        </test>
       
        <test name="SingleSignOnTest">
     <classes>
-      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithEmptyFields"/>
-      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithInvalidEmail"/>
-      <class name="discovery.SingleSignOnTest.SS_clickRegisterwithInvalidPassword"/>
-      <class name="discovery.SingleSignOnTest.SS_CreateAccount_ChangeEmail_ChangePassword_DeleteAccount"/>
-      <class name="discovery.SingleSignOnTest.SS_ForgttenPassword"/>
-      <class name="discovery.SingleSignOnTest.SS_NoAcceptTerm"/>
+      <class name="SingleSignOnTest.SS_clickRegisterwithEmptyFields"/>
+      <class name="SingleSignOnTest.SS_clickRegisterwithInvalidEmail"/>
+      <class name="SingleSignOnTest.SS_clickRegisterwithInvalidPassword"/>
+      <class name="SingleSignOnTest.SS_CreateAccount_ChangeEmail_ChangePassword_DeleteAccount"/>
+      <class name="SingleSignOnTest.SS_ForgttenPassword"/>
+      <class name="SingleSignOnTest.SS_NoAcceptTerm"/>
       
       </classes>
        </test>
       
        <test name="DownlaodRecordOnTest">
     <classes>
-      <class name="discovery.DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite"/>
-      <class name="discovery.DownlaodRecordOnTest.Veriy_DownloadOption_InAccount"/>
-      <class name="discovery.DownlaodRecordOnTest.Veriy_DownloadOption_OnConfirmationPage"/>
+      <class name="DownlaodRecordOnTest.Veriy_DownloadOption_ForOffsite"/>
+      <class name="DownlaodRecordOnTest.Veriy_DownloadOption_InAccount"/>
+      <class name="DownlaodRecordOnTest.Veriy_DownloadOption_OnConfirmationPage"/>
            
        </classes>
  </test>
@@ -260,9 +261,13 @@
           <class name="cabinetPapersSearch.CabinetPapers_Educationresources"/>
           <class name="cabinetPapersSearch.CabinetPapers_EntireDocument"/>
           <class name="cabinetPapersSearch.CabinetPapers_FilterbyAll_EntireDocument"/>
+
+
         
            
        </classes>
        
        </test>
+
+
 </suite>
