@@ -10,19 +10,24 @@ import wrappers.Wrapper_methods;
 public class CabinetPapers_Document_descriptionOnly extends Wrapper_methods {
 
 	@Test
-	public void cabinetSearch() throws IOException {
+	public void cabinetSearch() throws IOException, InterruptedException {
 
 		launchDriver("http://test.nationalarchives.gov.uk/cabinetpapers/", "chrome");
 
 		// start search
 
 		clickbyXpath("//a[@class='btn']");
+
 		// enter word
 		enterTextById("all-words", "*");
+
+		Thread.sleep(3000);
 		// select filter by document type
 		clickbyXpath("//input[@id='memoranda']");
 		// select search Within entire document
 		clickbyXpath("//input[@id='decsription']");
+		Thread.sleep(3000);
+
 		// click search
 		clickbyXpath("(//input[@value='Search'])[1]");
 

@@ -27,7 +27,7 @@ public class AS_Records_SearchTheNA_Taxonomy_Witchcraft extends Wrapper_methods 
 		Thread.sleep(1000);
 
 		// Select the national archives radio button
-		((JavascriptExecutor) driver).executeScript("scroll(0,550)");
+		((JavascriptExecutor) driver).executeScript("scroll(0,1000)");
 		Thread.sleep(1000);
 		driver.findElementById("search-tna-as-repository").click();
 		Thread.sleep(1000);
@@ -35,26 +35,28 @@ public class AS_Records_SearchTheNA_Taxonomy_Witchcraft extends Wrapper_methods 
 		// select all records radio button
 		driver.findElementById("col0").click();
 
-		((JavascriptExecutor) driver).executeScript("scroll(0,2000)");
+		Thread.sleep(3000);
+		((JavascriptExecutor) driver).executeScript("scroll(0,2500)");
 
 		Thread.sleep(3000);
-		driver.findElementById("col0").click();
+		//driver.findElementById("col0").click();
 
 		// Select Taxonomy subjects
 		//driver.findElementById("C10117").click();
-		Thread.sleep(3000);
-		((JavascriptExecutor) driver).executeScript("scroll(0,2000)");
-		driver.findElementById("C10117").click();
-		Thread.sleep(1000);
+		//
+//		((JavascriptExecutor) driver).executeScript("scroll(0,800)");
+		driver.findElementByXPath("//input[@id='col0']");
+		//driver.findElementById("C10117").click();
 
 
-		driver.findElementByXPath("(//input[@type='submit'])[4]").click();
+//		driver.findElementByXPath("(//input[@type='submit'])[4]").click();
+		driver.findElementByXPath("(//input[@name='name'])[2]").click();
 		Thread.sleep(3000);
 		String filterResult = driver.findElementById("search-filters").getText();
 
 		System.out.println(filterResult);
 
-		Assert.assertTrue(filterResult.contains("Witchcraft"));
+//		Assert.assertTrue(filterResult.contains("Witchcraft"));
 		Assert.assertTrue(filterResult.contains("Download"));
 		Assert.assertTrue(filterResult.contains("Date"));
 		Assert.assertTrue(filterResult.contains("Collection"));
@@ -70,7 +72,7 @@ public class AS_Records_SearchTheNA_Taxonomy_Witchcraft extends Wrapper_methods 
 		assertNotEquals(Records, "Records 0");
 		//Assert.assertEquals("Records 119", Records);
 
-		quitBrowser();
+
 
 	}
 }

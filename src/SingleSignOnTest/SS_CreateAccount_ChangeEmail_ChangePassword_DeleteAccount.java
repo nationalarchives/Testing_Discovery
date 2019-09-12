@@ -20,9 +20,9 @@ public class SS_CreateAccount_ChangeEmail_ChangePassword_DeleteAccount extends W
 
 		enterTextById("Name", "Test");
 
-		enterTextById("Email", "Testfive@gmail.com");
+		enterTextById("Email", "testseven@gmail.com");
 
-		enterTextById("ConfirmEmail", "Testfive@gmail.com");
+		enterTextById("ConfirmEmail", "testseven@gmail.com");
 
 		enterTextById("Password", "Test1234");
 

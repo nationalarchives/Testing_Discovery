@@ -15,13 +15,13 @@ public class SS_ForgttenPassword extends Wrapper_methods {
 
 		launchDriver("https://test.secure.nationalarchives.gov.uk/Login", "chrome");
 
-		enterTextById("UserName", "TestMailcheck1233@gmail.com");
+		enterTextById("UserName", "tnadiscovery100@gmail.com");
 
 		clickbyLinkText("Forgotten your password?");
 
 		// enter email id to send request
 
-		enterTextById("Email", "TestMailcheck1233@gmail.com");
+		enterTextById("Email", "tnadiscovery100@gmail.com");
 
 		// clcik send request
 
@@ -31,7 +31,7 @@ public class SS_ForgttenPassword extends Wrapper_methods {
 
 		System.out.println(reset_Message);
 
-		Assert.assertTrue(reset_Message.contains("Check your e-mail 'TestMailcheck1233@gmail.com'."));
+		Assert.assertTrue(reset_Message.contains("Check your e-mail 'tnadiscovery100@gmail.com'."));
 
 		quitBrowser();
 	}

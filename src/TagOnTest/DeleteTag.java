@@ -32,7 +32,7 @@ public class DeleteTag extends Wrapper_methods {
 
 		// Delete tag
 
-		driver.findElementByXPath("(//a[@class='tagName deleteTag users-tag-list-item'])[1]").click();
+		driver.findElementByXPath("//*[@id=\"tag-list\"]/li[1]/div/span/span/a").click();
 		Thread.sleep(3000);
 		driver.switchTo().alert();
 		Thread.sleep(3000);

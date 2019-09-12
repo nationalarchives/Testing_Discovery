@@ -1,6 +1,8 @@
 package DeliveryOption;
 
 import java.io.File;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -27,10 +29,13 @@ public class InvigilationSafeRoom extends Wrapper_methods {
 
 		launchDriver(iaid, "chrome");
 
-		driver.findElementByXPath("(//a[@class='discoveryPrimaryCallToActionLink'])[5]").click();
+		Thread.sleep(5000);
+
+		driver.findElementByXPath("//*[@id=\"staffViewOfOtherUserDOsWrapper\"]/a").click();
 
 		Thread.sleep(3000);
 
+		((JavascriptExecutor) driver).executeScript("scroll(0,700)");
 		String Staffcheck = driver.findElementByXPath("(//div[@class='order-option-wrapper'])[1]")
 				.getAttribute("innerHTML");
 

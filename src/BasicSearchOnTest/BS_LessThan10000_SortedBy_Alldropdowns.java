@@ -3,6 +3,7 @@ package BasicSearchOnTest;
 import java.io.IOException;
 import java.util.List;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -33,6 +34,7 @@ public class BS_LessThan10000_SortedBy_Alldropdowns extends Wrapper_methods {
 		Select sortedBy_TitleAcending = new Select(driver.findElementById("sortDrop"));
 
 		sortedBy_TitleAcending.selectByIndex(2);
+		//((JavascriptExecutor)driver).executeScript("scroll(0,600)");
 		Thread.sleep(3000);
 
 		// verify records start with number

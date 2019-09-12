@@ -23,13 +23,13 @@ public class SS_clickRegisterwithInvalidEmail extends Wrapper_methods {
 
 		enterTextById("Name", "Test");
 
-		enterTextById("Email", "testmailcheck1233@gmail.com");
+		enterTextById("Email", "tnadiscovery100@gmail.com");
 
-		enterTextById("ConfirmEmail", "testmailcheck1233@gmaill.com");
+		enterTextById("ConfirmEmail", "tnadiscovery100@gmaillllll.com");
 
-		enterTextById("Password", "Testcheck123");
+		enterTextById("Password", "Discovery1234");
 		// Enter the invlaid password
-		enterTextById("ConfirmPassword", "Testcheck123");
+		enterTextById("ConfirmPassword", "Discovery1234");
 
 		clickbyID("acceptTCs");
 

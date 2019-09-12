@@ -19,10 +19,10 @@ public class Foi1939register extends Wrapper_methods {
 				"chrome");
 
 		// enter name
-		enterTextById("firstnames", "Tester");
+		enterTextById("firstnames", "Testing");
 
 		// enter lastname
-		enterTextById("search_lastname", "SurTester");
+		enterTextById("search_lastname", "Testing for something");
 
 		// enter gender
 		Thread.sleep(5000);
@@ -95,8 +95,8 @@ public class Foi1939register extends Wrapper_methods {
 
 		enterTextById("firstname", "Tester");
 		enterTextById("lastname", "SurTester");
-		enterTextById("email", "TestMailcheck1233@gmail.com");
-		enterTextById("confirmemail", "TestMailcheck1233@gmail.com");
+		enterTextById("email", "tnadiscovery100@gmail.com");
+		enterTextById("confirmemail", "tnadiscovery100@gmail.com");
 		enterTextById("address1", "63highstreet");
 		enterTextById("town", "London");
 		enterTextById("postcode", "tw96nu");
@@ -115,7 +115,7 @@ public class Foi1939register extends Wrapper_methods {
 
 		// enter email id
 
-		enterByTextXpath("//input[@id='DeliveryEmail']", "dTestMailcheck1233@gmail.com");
+		enterByTextXpath("//input[@id='DeliveryEmail']", "tnadiscovery100@gmail.com");
 
 		// accept the terms and conditons
 

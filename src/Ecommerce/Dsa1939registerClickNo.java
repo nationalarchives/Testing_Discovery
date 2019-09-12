@@ -20,9 +20,9 @@ public class Dsa1939registerClickNo extends Wrapper_methods {
 		launchDriver("http://test.discovery.nationalarchives.gov.uk/paidsearch/dsa1939register?readertype=offsite",
 				"chrome");
 		// First name
-		enterTextById("firstnames", "Tester");
+		enterTextById("firstnames", "ThisIsTest");
 		// last name
-		enterTextById("search_lastname", "LastTester");
+		enterTextById("search_lastname", "James");
 
 		// gender
 		selectByValue_UsingId("search_gender", "Female");
@@ -40,11 +40,11 @@ public class Dsa1939registerClickNo extends Wrapper_methods {
 
 		// upload proof of identity
 
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 
 		clickbyXpath("(//input[@type='file'])[1]");
 
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 
 		/*
 		 * StringSelection stringSelection = new StringSelection(

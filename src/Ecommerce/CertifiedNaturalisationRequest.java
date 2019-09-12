@@ -34,85 +34,65 @@ public class CertifiedNaturalisationRequest extends Wrapper_methods {
 
 		clickbyXpath("//input[@value='Checkout']");
 
-		driver.findElementById("UserName").sendKeys("yepuribindu@gmail.com");
+		// sign in
+		driver.findElementById("UserName").sendKeys("tnadiscovery100@gmail.com");
 
 		Thread.sleep(3000);
 
 		// Enter password
 
-		driver.findElementById("Password").sendKeys("Bindu123");
+		driver.findElementById("Password").sendKeys("Discovery1234");
 
 		// click sign in
 
 		driver.findElementByClassName("singleColumnSubmit").click();
+		Thread.sleep(6000);
 
 		// click the checkout
 
 		clickbyXpath("//input[@value='Checkout']");
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
-         /*
-		  //add the delivery address
+        /* // click on add delivery address
 
-		  clickbyXpath("//a[@class='discoveryPrimaryCallToActionLink']");
+		clickbyXpath("//*[@id=\"basketItemsWrapper\"]/div/div[3]/div[1]/div/div/p/a");
 
-
-		  //Enter the title
-
-		  driver.findElementByXPath("//input[@id='Title']").sendKeys("Mrs");
-
-		  driver.findElementById("FirstName").sendKeys("shanthi");
-
-		  driver.findElementById("Surname").sendKeys("venkatesh");
-
-		  selectByValue_UsingId("Country", "United Kingdom");
-
-		  driver.findElementById("HouseNameNo").sendKeys("63");
-
-		  driver.findElementById("Street").sendKeys("Lloydcourt");
-
-		  driver.findElementById("Town").sendKeys("London");
-
-		  driver.findElementById("PostCode").sendKeys("Ha51eg");
-
-		  Thread.sleep(3000); //clcik to save
-
-		  clickbyXpath("//input[@class='call-to-action-link']");
-
-		  //again sign in driver.findElementById("UserName").sendKeys("discovery@nationalarchives.gov.uk" );
-
-		  Thread.sleep(3000);
-
-		  //Enter password
-
-		  driver.findElementById("Password").sendKeys("DiscoveryTest1");
-
-		  //click sign in
-
-		  driver.findElementByClassName("singleColumnSubmit").click(); */
-
+		// enter first name
+		driver.findElementByXPath("//*[@id=\"FirstName\"]").sendKeys("Tester");
+		// enter Last name
+		driver.findElementByXPath("//*[@id=\"Surname\"]").sendKeys("Surname Tester");
+		//enter house numer
+		driver.findElementByXPath("//*[@id=\"HouseNameNo\"]").sendKeys("70 Blenheim");
+		// enter street
+		driver.findElementByXPath("//*[@id=\"Street\"]").sendKeys("LychField road");
+		// enter town/city
+		driver.findElementByXPath("//*[@id=\"Town\"]").sendKeys("london");
+		// enter postcode
+		driver.findElementByXPath("//*[@id=\"PostCode\"]").sendKeys("tw9 4ad");
+		// click on save
+		//driver.findElementByXPath("//input[@value='Save']");
+		clickbyXpath("//input[@value='Save']");*/
 		// click to proceed
-
-		   clickbyXpath("//input[@value='Proceed']");
+		clickbyXpath("//input[@value='Proceed']");
 
 		// accept the terms and conditions
 
 		   clickbyXpath("(//input[@name='termsAndConditionsAccepted'])[1]");
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		// click the submit order
 
 		clickbyXpath("(//input[@type='submit'])[3]");
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		// click the paypal payment
 
 		clickbyXpath("(//input[@type='image'])[1]");
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		// click continue for payment
 

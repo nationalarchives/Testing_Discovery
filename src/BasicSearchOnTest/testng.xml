@@ -15,7 +15,12 @@
       <class name="BasicSearchOnTest.BS_RecordCreator_filterresult"/>
       <class name="BasicSearchOnTest.BS_VerifyTotalNoOfRRecordsAndRecordCreators"/>
       <class name="BasicSearchOnTest.BS_VerifyTotalNoOfRecordsEachLink"/>
-      
+        <class name="BasicSearchOnTest.BS_RecordOpenedInTheLast6months"/>
+        <class name="BasicSearchOnTest.BS_RecordOpenedInTheLast12months"/>
+      <class name="BasicSearchOnTest.BS_RecordOpenedInTheLastWeek"/>
+        <class name="BasicSearchOnTest.BS_RecordOpenedLastDay"/>
+        <class name="BasicSearchOnTest.BS_RecordOpenedOnASpecificDate"/>
+        <class name="BasicSearchOnTest.BS_RecordOpenedWithinADateRange"/>
       </classes>
  </test>
 </suite>

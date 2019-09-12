@@ -47,7 +47,7 @@ public class AS_ClosureStatus_Retained_AnyTime extends Wrapper_methods {
 		// click search button
 
 		Thread.sleep(3000);
-		driver.findElementByXPath("(//input[@type='submit'])[4]").click();
+		driver.findElementByXPath("(//input[@name='name'])[2]").click();
 
 		// total no of Retained records
 		Thread.sleep(3000);

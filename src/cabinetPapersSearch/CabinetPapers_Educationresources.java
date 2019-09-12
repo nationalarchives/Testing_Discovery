@@ -10,20 +10,27 @@ import wrappers.Wrapper_methods;
 public class CabinetPapers_Educationresources extends Wrapper_methods {
 
 	@Test
-	public void cabinetSearch() throws IOException {
+	public void cabinetSearch() throws IOException, InterruptedException{
 
 		launchDriver("http://test.nationalarchives.gov.uk/cabinetpapers/", "chrome");
 
 		// start search
 
 		clickbyXpath("//a[@class='btn']");
-		// click education resources
 
+		Thread.sleep(3000);
+
+		// click education resources
 		clickbyLinkText("Education resources");
+		Thread.sleep(3000);
+
 
 		// search by word or phrase
 
 		enterTextById("search-all-collections", "CAB 65");
+
+		Thread.sleep(3000);
+
 
 		// click search
 		clickbyXpath("(//input[@value='Search'])[2]");

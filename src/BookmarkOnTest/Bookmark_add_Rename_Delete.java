@@ -29,6 +29,8 @@ public class Bookmark_add_Rename_Delete extends Wrapper_methods {
 
 		clickbyLinkText("Bookmark");
 
+		Thread.sleep(5000);
+
 		enterByTextXpath("//input[@name='title']", "Testbookmark");
 
 		clickbyXpath("//input[@value='Add bookmark']");

@@ -10,7 +10,7 @@ import wrappers.Wrapper_methods;
 public class CabinetPapers_Date_descriptionOnly extends Wrapper_methods {
 
 	@Test
-	public void cabinetSearch() throws IOException {
+	public void cabinetSearch() throws IOException, InterruptedException {
 
 		launchDriver("http://test.nationalarchives.gov.uk/cabinetpapers/", "chrome");
 
@@ -21,6 +21,8 @@ public class CabinetPapers_Date_descriptionOnly extends Wrapper_methods {
 		enterTextById("all-words", "*");
 		// select filter by document type
 		clickbyXpath("//input[@id='conclusions']");
+		Thread.sleep(3000);
+
 
 		// enter the from date
 		enterTextById("from-date", "1915");

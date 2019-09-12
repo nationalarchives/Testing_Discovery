@@ -27,10 +27,11 @@ public class OrderOriginal extends Wrapper_methods {
 		String expectedOffisteDo = sheet.getRow(4).getCell(0).getStringCellValue();
 
 		launchDriver(iaid, "chrome");
+		Thread.sleep(6000);
 
 		driver.findElementByXPath("(//a[@class='discoveryPrimaryCallToActionLink'])[5]").click();
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		String deliveryOptionStaff = driver.findElementByXPath("(//div[@class='order-option-wrapper'])[1]").getText();
 

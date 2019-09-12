@@ -26,6 +26,8 @@ public class DetailPage_ErrorOnRecordDescription extends Wrapper_methods {
 
 		Select containsError = new Select(driver.findElementById("fieldContainingError"));
 
+		Thread.sleep(3000);
+
 		containsError.selectByIndex(2);
 
 		// what is the error
@@ -40,7 +42,7 @@ public class DetailPage_ErrorOnRecordDescription extends Wrapper_methods {
 
 		enterTextById("userName", "Tester");
 
-		enterTextById("userEmail", "Testmailcheck1233@gmail.com");
+		enterTextById("userEmail", "tnadiscovery100@gmail.com");
 
 		Thread.sleep(3000);
 		// clcik submit

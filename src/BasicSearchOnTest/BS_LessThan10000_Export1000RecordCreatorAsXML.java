@@ -20,18 +20,22 @@ public class BS_LessThan10000_Export1000RecordCreatorAsXML extends Wrapper_metho
 
 		driver.findElementById("search-all-collections").sendKeys("*");
 
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		driver.findElementByXPath("(//input[@type='submit'])[1]").click();
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		// click record creator
 
 		driver.findElementById("nameAuthorities").click();
+		Thread.sleep(6000);
+
 
 		// click diaries under creator type
 
 		driver.findElementByPartialLinkText("Diaries").click();
+
+		Thread.sleep(6000);
 
 		// Lessthan 10,000 records so select from drop down
 

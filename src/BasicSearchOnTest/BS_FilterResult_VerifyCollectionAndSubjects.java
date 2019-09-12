@@ -18,7 +18,7 @@ public class BS_FilterResult_VerifyCollectionAndSubjects extends Wrapper_methods
 
 		launchDriver("http://test.discovery.nationalarchives.gov.uk/", "chrome");
 
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		// Enter the word in search
 
 		driver.findElementById("search-all-collections").sendKeys("nelson");
@@ -30,7 +30,7 @@ public class BS_FilterResult_VerifyCollectionAndSubjects extends Wrapper_methods
 
 		// Filter result
 
-		String searchFilters = driver.findElementById("search-filters").getText();
+		String searchFilters = driver.findElementByXPath("//*[@id=\"search-filters\"]").getText();
 		System.out.println(searchFilters);
 
 		// click the nationalarchive link on held by
@@ -39,7 +39,7 @@ public class BS_FilterResult_VerifyCollectionAndSubjects extends Wrapper_methods
 
 		// Filter result
 
-		String afterHeldbylinkclick_searchFilters = driver.findElementById("search-filters").getText();
+		String afterHeldbylinkclick_searchFilters = driver.findElementByXPath("//*[@id=\"search-filters\"]").getText();
 		System.out.println(afterHeldbylinkclick_searchFilters);
 
 		// collection

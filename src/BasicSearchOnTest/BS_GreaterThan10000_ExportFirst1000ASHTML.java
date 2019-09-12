@@ -45,7 +45,7 @@ public class BS_GreaterThan10000_ExportFirst1000ASHTML extends Wrapper_methods {
 		String RecordCreators = driver.findElementById("nameAuthorities").getText();
 		System.out.println(RecordCreators);
 		// Assert.assertEquals("Record creators 162", RecordCreators);
-		Assert.assertEquals("Record creators 163", RecordCreators);
+		Assert.assertEquals("Record creators 265,963", RecordCreators);
 
 		Thread.sleep(3000);
 		// Held by

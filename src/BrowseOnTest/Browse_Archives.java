@@ -15,7 +15,6 @@ public class Browse_Archives extends Wrapper_methods {
 		launchDriver("http://test.discovery.nationalarchives.gov.uk/", "chrome");
 
 		clickbyLinkText("browse");
-
 		clickbyXpath("(//ul[@class='a-z'])[3]/li[19]");
 
 		String title = getTextByXpath("//ul[@id='search-results']/li[1]/a/h3");

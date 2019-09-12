@@ -13,17 +13,26 @@ public class SubscriptionMoDMedalResearchOffice extends Wrapper_methods {
 
 	public void SubscriptionMoDMedalResearchOffice() throws IOException, InterruptedException {
 
-		launchDriver("https://test.secure.nationalarchives.gov.uk/Login/register", "chrome");
+		launchDriver("https://test.discovery.nationalarchives.gov.uk/details/r/D431198", "chrome");
 
-		((JavascriptExecutor) driver).executeScript("scroll(0,400)");
+		((JavascriptExecutor) driver).executeScript("scroll(0,1500)");
+		// click on the box and enter your email address
+		clickbyXpath("//*[@id=\"Email\"]");
 
-		driver.findElementByXPath("//*[@id=\"Email\"]").click();
-
-		driver.findElementByXPath("//*[@id=\"Email\"]").sendKeys("yepuribindu@gmail.com");
+		driver.findElementByXPath("//*[@id=\"Email\"]").sendKeys("tnadiscovery100@gmail.com");
 
 		Thread.sleep(5000);
+		// click on submit button
+		clickbyXpath("//*[@id=\"newsletterSignUp\"]");
+        // testing Thank you
 
-		driver.findElementByXPath("//*[@id=\"ConfirmEmail\"]").click();
+		String actual1 = driver.findElementByXPath("//*[@id=\"post-442\"]/div[1]/h1").getText();
+		System.out.println(actual1);
+		Assert.assertEquals("Thank you",actual1);
+
+
+
+		/*driver.findElementByXPath("//*[@id=\"ConfirmEmail\"]").click();
 
 		driver.findElementByXPath("//*[@id=\"ConfirmEmail\"]").sendKeys("yepuribindu@gmail.com");
 
@@ -45,7 +54,7 @@ public class SubscriptionMoDMedalResearchOffice extends Wrapper_methods {
 
 		driver.findElementByXPath("//*[@id=\"acceptTCs\"]").click();
 
-		driver.findElementByXPath("//*[@id=\"regForm\"]/fieldset/div[1]/div[2]/div[5]/input[1]").click();
+		driver.findElementByXPath("//*[@id=\"regForm\"]/fieldset/div[1]/div[2]/div[5]/input[1]").click();*/
 
 
 
@@ -57,15 +66,15 @@ public class SubscriptionMoDMedalResearchOffice extends Wrapper_methods {
 //		driver.findElementById("ticket").sendKeys("110110");
 		//driver.findElementByXPath("//*[@id=\"ReaderTicket\"]").sendKeys("110110");
 
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 
         //driver.findElementByXPath("//input[@value='Validate barcode']").click();
 
-		String title = driver.findElementByXPath("//*[@id='account-controls']/ul/li[1]").getText();
+		//String title = driver.findElementByXPath("//*[@id='account-controls']/ul/li[1]").getText();
 
-		driver.findElementByXPath("//*[@id=\"page_wrap\"]/div/div/div[2]/fieldset[2]/ul/li[2]/span/a").click();
+		//driver.findElementByXPath("//*[@id=\"page_wrap\"]/div/div/div[2]/fieldset[2]/ul/li[2]/span/a").click();
 
-		driver.findElementByXPath("//*[@id=\"page_wrap\"]/div/div/div[2]/fieldset/div/form/input").click();
+		//driver.findElementByXPath("//*[@id=\"page_wrap\"]/div/div/div[2]/fieldset/div/form/input").click();
 
 
 

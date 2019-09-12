@@ -36,10 +36,11 @@ public class AS_AutoLookUp_OtherArchives extends Wrapper_methods {
 		String Acutal = li.get(2).getText();
 		System.out.println(Acutal);
 		li.get(2).click();
+		((JavascriptExecutor) driver).executeScript("scroll(0,2800)");
+		driver.findElementByXPath("(//input[@name='name'])[2]").click();
 
-		driver.findElementByXPath("(//input[@type='submit'])[4]").click();
+		Thread.sleep(4000);
 
-		Thread.sleep(3000);
 		String yourFliters = driver.findElementById("search-refine").getText();
 
 		System.out.println(yourFliters);

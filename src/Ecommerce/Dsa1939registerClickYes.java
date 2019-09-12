@@ -16,7 +16,7 @@ public class Dsa1939registerClickYes extends Wrapper_methods {
 
 	public void Dsa1939registerClickYes() throws IOException, InterruptedException, AWTException {
 
-		Robot robot = new Robot();
+		//Robot robot = new Robot();
 
 		launchDriver("http://test.discovery.nationalarchives.gov.uk/paidsearch/dsa1939register?readertype=offsite",
 				"chrome");
@@ -75,8 +75,8 @@ public class Dsa1939registerClickYes extends Wrapper_methods {
 
 		enterTextById("firstname", "Tester");
 		enterTextById("lastname", "SurTester");
-		enterTextById("email", "TestMailcheck1233@gmail.com");
-		enterTextById("confirmemail", "TestMailcheck1233@gmail.com");
+		enterTextById("email", "tnadiscovery100@gmail.com");
+		enterTextById("confirmemail", "tnadiscovery100@gmail.com");
 		enterTextById("address1", "63Highstreet");
 		enterTextById("town", "London");
 		enterTextById("postcode", "tw96nu");

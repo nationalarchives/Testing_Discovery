@@ -1,12 +1,22 @@
 package wrappers;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Month;
+import java.util.Calendar;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.formula.functions.Days360;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriverException;
@@ -255,6 +265,89 @@ public class Wrapper_methods {
 			e.printStackTrace();
 
 		}
+	}
+	/*public void Date(){
+
+		LocalDate date = LocalDate.now();
+		if(date.getDayOfWeek() == DayOfWeek.SUNDAY || date.getDayOfWeek() == DayOfWeek.MONDAY)
+		{
+
+			LocalDate Lastweek = date.minusDays(7);
+		}
+		else if (date.getMonth() == Month.JANUARY || date.getMonth() == Month.DECEMBER ) {
+			LocalDate Last6months = date.minusMonths(6);
+		}
+		else if (date.getYear() == Month.JANUARY || date.getYear() == Month.DECEMBER ){
+			LocalDate Last12months = date.minusMonths(12);
+
+		}
+
+	}
+
+
+		public static void Date() {
+
+			LocalDate date = LocalDate.now();
+			LocalDate Lastday = date.minusDays(1);
+
+			LocalDate date1 = LocalDate.now();
+			LocalDate Lastweek = date1.minusDays(7);
+
+			LocalDate date2 = LocalDate.now();
+			LocalDate Last6months = date2.minusMonths(6);
+
+			LocalDate date3 = LocalDate.now();
+			LocalDate Last12months = date3.minusMonths(12);
+
+
+
+		}*/
+
+	public class TestDate3 {
+
+		public void main(String[] args) throws ParseException {
+
+			SimpleDateFormat sdf = new SimpleDateFormat("dd-mmm-yyyy");
+
+			String actual = driver.findElementByXPath("//*[@id=\"page_wrap\"]/main/div/div/div/div[2]/table/tbody/tr[9]/td").getText();
+			System.out.println(actual);
+			LocalDate date = LocalDate.now();
+			LocalDate Lastday = date.minusDays(1);
+
+			LocalDate date1 = LocalDate.now();
+			LocalDate Lastweek = date1.minusDays(7);
+
+
+			LocalDate date2 = LocalDate.now();
+			LocalDate Last6months = date2.minusMonths(6);
+
+			LocalDate date3 = LocalDate.now();
+			LocalDate Last12months = date3.minusMonths(12);
+             /*
+			Date date1 = sdf.parse("2009-12-31");
+			Date date2 = sdf.parse("2010-01-31");
+
+			System.out.println("date1 : " + sdf.format(date1));
+			System.out.println("date2 : " + sdf.format(date2));
+
+			Calendar cal1 = Calendar.getInstance();
+			Calendar cal2 = Calendar.getInstance();
+			cal1.setTime(date1);
+			cal2.setTime(date2);
+
+			if (cal1.after(cal2)) {
+				System.out.println("Date1 is after Date2");
+			}
+
+			if (cal1.before(cal2)) {
+				System.out.println("Date1 is before Date2");
+			}
+
+			if (cal1.equals(cal2)) {
+				System.out.println("Date1 is equal Date2");
+			}*/
+		}
+
 	}
 
 }
