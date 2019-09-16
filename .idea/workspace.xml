@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11012957-00db-4d9e-9e4f-4e111a80cb95" name="Default Changelist" comment="Edited Tests and New Tests">
-      <change afterPath="$PROJECT_DIR$/../../Testing_LetterOfNoEvidence/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="11012957-00db-4d9e-9e4f-4e111a80cb95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Testing_AdvanceOrder" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_AdvanceOrder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing_MYC" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_MYC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Discovery/META-INF/Discovery.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sar/Sar_DPP23289FoiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sar/Sar_DPP23289FoiRequest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568280591885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Tests">
+      <created>1568626785094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568626785094</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Edited Tests and New Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited Tests and New Tests" />
+    <MESSAGE value="Updated Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Discovery$SubscriptionMoDMedalResearchOffice.ic" NAME="SubscriptionMoDMedalResearchOffice Coverage Results" MODIFIED="1565083485884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
