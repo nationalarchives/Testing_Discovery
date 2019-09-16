@@ -20,7 +20,8 @@ public class ReadMore_ReadLess extends Wrapper_methods {
         System.out.println(actual1);
         Assert.assertEquals("What information do the records contain?", actual1);
        // click on read less
-      clickbyXpath("//div[2]/div/button");
+       clickbyXpath("//button[@id='expand-supplemental']");
+     // clickbyXpath("/html/body/div[2]/main/div/div/div/div[2]/div/button");
        //driver.findElementByXPath("//button[@id='expand-supplemental']").click();
 
        // check for 'read more' button

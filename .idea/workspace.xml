@@ -4,6 +4,10 @@
     <list default="true" id="11012957-00db-4d9e-9e4f-4e111a80cb95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Testing_AdvanceOrder" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_AdvanceOrder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing_MYC" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_MYC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Discovery/Sar/Sar_DPP23289FoiRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discovery/Sar/Sar_DPP23289FoiRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Discovery/WhatToExpectGuide/ReadMore_ReadLess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discovery/WhatToExpectGuide/ReadMore_ReadLess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhatToExpectGuide/ReadMore_ReadLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhatToExpectGuide/ReadMore_ReadLess.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Sar_DPP23289FoiRequest">
+  <component name="RunManager" selected="TestNG.ReadMore_ReadLess.ReadMore_ReadLess">
     <configuration name="AS_AutoLookUp_ByGovernmentDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Discovery" />
       <extension name="coverage">
@@ -77,23 +81,6 @@
         <value defaultName="wholeProject" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BS_FilterResult_VerifyCollectionAndSubjects" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicSearchOnTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicSearchOnTest" />
-      <option name="MAIN_CLASS_NAME" value="BasicSearchOnTest.BS_FilterResult_VerifyCollectionAndSubjects" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,23 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DidYouFindThisGuideHelpful_No" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WhatToExpectGuide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WhatToExpectGuide" />
-      <option name="MAIN_CLASS_NAME" value="WhatToExpectGuide.DidYouFindThisGuideHelpful_No" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OnlyDeliveryOptions" type="TestNG">
       <module name="Discovery" />
       <option name="SUITE_NAME" value="" />
@@ -165,6 +135,42 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadMore_ReadLess.ReadMore_ReadLess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WhatToExpectGuide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WhatToExpectGuide" />
+      <option name="MAIN_CLASS_NAME" value="WhatToExpectGuide.ReadMore_ReadLess" />
+      <option name="METHOD_NAME" value="ReadMore_ReadLess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadMore_ReadLess.ReadMore_ReadLess_pagination" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WhatToExpectGuide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WhatToExpectGuide" />
+      <option name="MAIN_CLASS_NAME" value="WhatToExpectGuide.ReadMore_ReadLess" />
+      <option name="METHOD_NAME" value="ReadMore_ReadLess_pagination" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -192,19 +198,19 @@
       <item itemvalue="TestNG.BS_RecordOpenedOnASpecificDate.BS_RecordOpenedOnASpecificDate" />
       <item itemvalue="TestNG.OnlyDeliveryOptions" />
       <item itemvalue="TestNG.All" />
-      <item itemvalue="TestNG.BS_FilterResult_VerifyCollectionAndSubjects" />
-      <item itemvalue="TestNG.DidYouFindThisGuideHelpful_No" />
       <item itemvalue="TestNG.AS_AutoLookUp_ByGovernmentDepartment" />
       <item itemvalue="TestNG.Bookmark_add_Rename_Delete" />
       <item itemvalue="TestNG.Sar_DPP23289FoiRequest" />
+      <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess_pagination" />
+      <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess" />
+        <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess_pagination" />
         <item itemvalue="TestNG.Sar_DPP23289FoiRequest" />
         <item itemvalue="TestNG.Bookmark_add_Rename_Delete" />
         <item itemvalue="TestNG.AS_AutoLookUp_ByGovernmentDepartment" />
-        <item itemvalue="TestNG.DidYouFindThisGuideHelpful_No" />
-        <item itemvalue="TestNG.BS_FilterResult_VerifyCollectionAndSubjects" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +266,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Edited Tests and New Tests" />
     <MESSAGE value="Updated Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Tests" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Discovery$SubscriptionMoDMedalResearchOffice.ic" NAME="SubscriptionMoDMedalResearchOffice Coverage Results" MODIFIED="1565083485884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
