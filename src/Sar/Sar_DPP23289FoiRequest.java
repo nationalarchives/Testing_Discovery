@@ -41,7 +41,7 @@ public class Sar_DPP23289FoiRequest {
 
 		Assert.assertTrue(table.contains(expectedasset));
 
-		driver.quit();
+		//driver.quit();
 
 	}
 }
