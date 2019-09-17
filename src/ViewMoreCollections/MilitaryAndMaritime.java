@@ -10,7 +10,7 @@ import java.io.IOException;
 public class MilitaryAndMaritime extends Wrapper_methods {
     @Test
     public void MilitaryAndMaritime() throws IOException, InterruptedException{
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=second-world-war-research","chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=second-world-war-research","chrome");
         // select Military and Maritime from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
         sortedBy.selectByIndex(4);

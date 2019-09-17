@@ -10,7 +10,7 @@ import java.io.IOException;
 public class ForeignAndColonialHistory_RecordsOnline extends Wrapper_methods {
     @Test
     public void ForeignAndColonialHistory_RecordsOnline() throws InterruptedException, IOException{
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
         // select Political and economic history from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

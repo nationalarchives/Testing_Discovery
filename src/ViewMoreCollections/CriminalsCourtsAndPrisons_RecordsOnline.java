@@ -11,7 +11,7 @@ public class CriminalsCourtsAndPrisons_RecordsOnline extends Wrapper_methods {
     @Test
     public void CriminalsCourtsAndPrisons_RecordsOnline() throws InterruptedException, IOException{
 
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online","chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online","chrome");
         // select Criminals courts and prisons from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

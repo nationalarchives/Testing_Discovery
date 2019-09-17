@@ -12,7 +12,7 @@ public class SecondWorldWar_RecordsOnline extends Wrapper_methods {
     @Test
 
     public void SecondWorldWar_RecordsOnline() throws IOException,InterruptedException{
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=second-world-war-research","chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=second-world-war-research","chrome");
         // select First world war from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

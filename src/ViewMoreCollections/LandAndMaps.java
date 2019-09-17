@@ -10,7 +10,7 @@ import java.io.IOException;
 public class LandAndMaps extends Wrapper_methods {
     @Test
     public void LandAndMaps() throws InterruptedException, IOException{
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=family-history","chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=family-history","chrome");
         // select Land and maps from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
         sortedBy.selectByIndex(9);

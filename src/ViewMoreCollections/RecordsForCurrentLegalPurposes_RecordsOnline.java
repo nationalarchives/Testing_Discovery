@@ -10,7 +10,7 @@ import java.io.IOException;
 public class RecordsForCurrentLegalPurposes_RecordsOnline extends Wrapper_methods {
     @Test
     public void RecordsForCurrentLegalPurposes_RecordsOnline() throws IOException,InterruptedException{
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
         // select MRecords for current legal purposes from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

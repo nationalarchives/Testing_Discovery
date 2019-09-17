@@ -11,7 +11,7 @@ public class SocialAndCulturalHistory_RecordsOnline extends Wrapper_methods {
     @Test
     public void SocialAndCulturalHistory_RecordsOnline() throws IOException,InterruptedException{
 
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online","chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=online","chrome");
         // select Social and cultural history from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

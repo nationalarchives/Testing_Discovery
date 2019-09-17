@@ -11,7 +11,7 @@ public class LandAndMaps_RecordsOnline extends Wrapper_methods {
     @Test
     public void LandAndMaps_RecordsOnline() throws IOException,InterruptedException{
 
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
         // select Land and maps from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 

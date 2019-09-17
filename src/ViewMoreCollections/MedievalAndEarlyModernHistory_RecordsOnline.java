@@ -11,7 +11,7 @@ public class MedievalAndEarlyModernHistory_RecordsOnline extends Wrapper_methods
     @Test
     public void MedievalAndEarlyModernHistory_RecordsOnline() throws IOException,InterruptedException{
 
-        launchDriver("http://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
+        launchDriver("http://test.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-category=military-and-maritime","Chrome");
         // select Medieval and early modern history from the dropdown
         Select sortedBy = new Select(driver.findElementById("research-category"));
 
