@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11012957-00db-4d9e-9e4f-4e111a80cb95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FindAnAichiveOnTest/FA_ArchiveUsingKeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing_AdvanceOrder" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_AdvanceOrder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Testing_MYC" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testing_MYC" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Discovery/Sar/Sar_DPP23289FoiRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discovery/Sar/Sar_DPP23289FoiRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Discovery/WhatToExpectGuide/ReadMore_ReadLess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discovery/WhatToExpectGuide/ReadMore_ReadLess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WhatToExpectGuide/ReadMore_ReadLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhatToExpectGuide/ReadMore_ReadLess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Discovery/ViewMoreCollections/AllResearchGuidesA_Z.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discovery/ViewMoreCollections/AllResearchGuidesA_Z.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/AllResearchGuidesA_Z.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/AllResearchGuidesA_Z.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/CriminalsCourtsAndPrisons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/CriminalsCourtsAndPrisons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/CriminalsCourtsAndPrisons_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/CriminalsCourtsAndPrisons_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/FamilyHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/FamilyHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/ForeignAndColonialHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/ForeignAndColonialHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/ForeignAndColonialHistory_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/ForeignAndColonialHistory_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/LandAndMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/LandAndMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/LandAndMaps_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/LandAndMaps_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/MedievalAndEarlyModernHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/MedievalAndEarlyModernHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/MedievalAndEarlyModernHistory_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/MedievalAndEarlyModernHistory_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/MilitaryAndMaritime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/MilitaryAndMaritime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/MilitaryAndMaritime_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/MilitaryAndMaritime_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/PoliticalAndEconomicHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/PoliticalAndEconomicHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/PoliticalAndEconomicHistory_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/PoliticalAndEconomicHistory_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/RecordsForCurrentLegalPurposes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/RecordsForCurrentLegalPurposes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/RecordsForCurrentLegalPurposes_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/RecordsForCurrentLegalPurposes_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/SecondWorldWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/SecondWorldWar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/SecondWorldWar_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/SecondWorldWar_RecordsOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/SocialAndCulturalHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/SocialAndCulturalHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ViewMoreCollections/SocialAndCulturalHistory_RecordsOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ViewMoreCollections/SocialAndCulturalHistory_RecordsOnline.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,24 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReadMore_ReadLess.ReadMore_ReadLess">
-    <configuration name="AS_AutoLookUp_ByGovernmentDepartment" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdvancedSearchOnTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AdvancedSearchOnTest" />
-      <option name="MAIN_CLASS_NAME" value="AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.AllResearchGuidesA_Z.FirstWorldWar">
     <configuration name="All" type="TestNG">
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,6 +83,24 @@
         <value defaultName="wholeProject" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllResearchGuidesA_Z.FirstWorldWar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ViewMoreCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ViewMoreCollections" />
+      <option name="MAIN_CLASS_NAME" value="ViewMoreCollections.AllResearchGuidesA_Z" />
+      <option name="METHOD_NAME" value="FirstWorldWar" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -105,17 +125,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bookmark_add_Rename_Delete" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FA_ArchiveUsingKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Discovery" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BookmarkOnTest.*" />
+          <option name="PATTERN" value="FindAnAichiveOnTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BookmarkOnTest" />
-      <option name="MAIN_CLASS_NAME" value="BookmarkOnTest.Bookmark_add_Rename_Delete" />
+      <option name="PACKAGE_NAME" value="FindAnAichiveOnTest" />
+      <option name="MAIN_CLASS_NAME" value="FindAnAichiveOnTest.FA_ArchiveUsingKeyword" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FA_ArchiveUsingKeyword.FA_ArchiveUsingAnotherKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindAnAichiveOnTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindAnAichiveOnTest" />
+      <option name="MAIN_CLASS_NAME" value="FindAnAichiveOnTest.FA_ArchiveUsingKeyword" />
+      <option name="METHOD_NAME" value="FA_ArchiveUsingAnotherKeyword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FA_ArchiveUsingKeyword.FA_ArchiveUsingKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindAnAichiveOnTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindAnAichiveOnTest" />
+      <option name="MAIN_CLASS_NAME" value="FindAnAichiveOnTest.FA_ArchiveUsingKeyword" />
+      <option name="METHOD_NAME" value="FA_ArchiveUsingKeyword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FA_ArchiveUsingKeyword.FA_ArchiveUsingOneMoreKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindAnAichiveOnTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FindAnAichiveOnTest" />
+      <option name="MAIN_CLASS_NAME" value="FindAnAichiveOnTest.FA_ArchiveUsingKeyword" />
+      <option name="METHOD_NAME" value="FA_ArchiveUsingOneMoreKeyword" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,76 +215,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadMore_ReadLess.ReadMore_ReadLess" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WhatToExpectGuide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WhatToExpectGuide" />
-      <option name="MAIN_CLASS_NAME" value="WhatToExpectGuide.ReadMore_ReadLess" />
-      <option name="METHOD_NAME" value="ReadMore_ReadLess" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadMore_ReadLess.ReadMore_ReadLess_pagination" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WhatToExpectGuide.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WhatToExpectGuide" />
-      <option name="MAIN_CLASS_NAME" value="WhatToExpectGuide.ReadMore_ReadLess" />
-      <option name="METHOD_NAME" value="ReadMore_ReadLess_pagination" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sar_DPP23289FoiRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Discovery" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sar" />
-      <option name="MAIN_CLASS_NAME" value="Sar.Sar_DPP23289FoiRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.BS_RecordOpenedOnASpecificDate.BS_RecordOpenedOnASpecificDate" />
       <item itemvalue="TestNG.OnlyDeliveryOptions" />
       <item itemvalue="TestNG.All" />
-      <item itemvalue="TestNG.AS_AutoLookUp_ByGovernmentDepartment" />
-      <item itemvalue="TestNG.Bookmark_add_Rename_Delete" />
-      <item itemvalue="TestNG.Sar_DPP23289FoiRequest" />
-      <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess_pagination" />
-      <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess" />
+      <item itemvalue="TestNG.FA_ArchiveUsingKeyword" />
+      <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingKeyword" />
+      <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingAnotherKeyword" />
+      <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingOneMoreKeyword" />
+      <item itemvalue="TestNG.AllResearchGuidesA_Z.FirstWorldWar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess" />
-        <item itemvalue="TestNG.ReadMore_ReadLess.ReadMore_ReadLess_pagination" />
-        <item itemvalue="TestNG.Sar_DPP23289FoiRequest" />
-        <item itemvalue="TestNG.Bookmark_add_Rename_Delete" />
-        <item itemvalue="TestNG.AS_AutoLookUp_ByGovernmentDepartment" />
+        <item itemvalue="TestNG.AllResearchGuidesA_Z.FirstWorldWar" />
+        <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingOneMoreKeyword" />
+        <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingAnotherKeyword" />
+        <item itemvalue="TestNG.FA_ArchiveUsingKeyword" />
+        <item itemvalue="TestNG.FA_ArchiveUsingKeyword.FA_ArchiveUsingKeyword" />
       </list>
     </recent_temporary>
   </component>
