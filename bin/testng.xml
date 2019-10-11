@@ -80,7 +80,7 @@
       <class name="AdvancedSearchOnTest.AS_RecordCreator_CreatorType_CheckBox_Years"/>
       <class name="AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange"/>
       <class name="AdvancedSearchOnTest.AS_Records_DateRange_SearchAll"/>
-      <!-- <class name="AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/> -->
+      <class name="AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/>
       <class name="AdvancedSearchOnTest.AS_Records_SpecificDate_SearchAll"/>
       <class name="AdvancedSearchOnTest.AS_Reference_SearchAll"/>
       <class name="AdvancedSearchOnTest.AS_Search_Find_DontFindWord"/>
@@ -88,7 +88,7 @@
       <class name="AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
       <class name="AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel" />
       <class name="AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment" />
-     <!--  <class name="AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives" /> -->
+      <class name="AdvancedSearchOnTest.AS_AutoLookUp_OtherArchives" />
       
       </classes>
        </test>
@@ -100,7 +100,7 @@
       <class name="BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML"/>
       <class name="BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML"/>
       <class name="BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV"/>
-     <!--  <class name="BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns"/> -->
+      <class name="BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns"/>
       <class name="BasicSearchOnTest.BS_LessThan10000_SortedBy_Reference"/>
       <class name="BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV"/>
       <class name="BasicSearchOnTest.BS_NoOfRecordsPerPage15And30And60"/>
@@ -127,7 +127,7 @@
        <test name="ManorSearchOnTest">
     <classes>
       <class name="ManorSearchOnTest.MS_ByManor_VerifyRecordsCreator"/>
-    <!--   <class name="ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch"/> -->
+      <class name="ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch"/>
       <class name="ManorSearchOnTest.MS_ForManorDocuments_VerifyRecords"/>
       
       </classes>

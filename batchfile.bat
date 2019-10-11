@@ -1,5 +1,6 @@
-set projectLocation=C:\Users\Testing\SoftwareTestingWorkSpace\Projects\Discovery
+set projectLocation=C:\Users\hparupalli\Workspace\TestingWorkSpace\Projects\repo\Testing_Discovery
 cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\lib\*
-java org.testng.TestNG %projectLocation%\testng.xml
+set classpath=%projectLocation%\target\classes\*; %projectLocation%\lib\*
+java org.testng.TestNG %projectLocation%\src\main\java\testng.xml
 pause
+

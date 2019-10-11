@@ -199,7 +199,7 @@
  <test name="Discovery Fileauthorities_API">
     <classes>
       
-          <class name="fileauthorities_API.Discovery_API_Collections"/>
+        <class name="fileauthorities_API.Discovery_API_Collections"/>
           <class name="fileauthorities_API.Discovery_API_Flieauthorities"/> 
        </classes>
  </test>
